@@ -1,19 +1,19 @@
 public class Isa
 {
-     public string Authorization_Information_Qualifier { get; set; }
-        public string Authorization_Information { get; set; }
-        public string Security_Information_Qualifier { get; set; }
-        public string Security_Information { get; set; }
-        public string Interchange_Id_Qualifier { get; set; }
-        public string Interchange_Sender_Id { get; set; }
-        public string Interchange_Id_Qualifier_reciever { get; set; }
-        public string Interchange_Receiver_Id { get; set; }
+     public string AuthorizationInformationQualifier { get; set; }
+        public string AuthorizationInformation { get; set; }
+        public string SecurityInformationQualifier { get; set; }
+        public string SecurityInformation { get; set; }
+        public string InterchangeIdQualifier { get; set; }
+        public string InterchangeSenderId { get; set; }
+        public string InterchangeIdQualifierReciever { get; set; }
+        public string InterchangeReceiverId { get; set; }
         public DateOnly Date  { get; set; }
         public TimeOnly Time { get; set; } 
-        public string Interchange_Control_Standard_Id_Code { get; set; }
-        public string Interchange_Version { get; set; }
-        public string Interchange_Control_Nbr { get; set; }
-        public string Acknowledgement_Requested { get; set; }
-        public string Test_Indicator { get; set; }
-        public string Sub_element_Separator { get; set; }       
+        public string InterchangeControlStandardIdCode { get; set; }
+        public string InterchangeVersion { get; set; }
+        public string InterchangeControlNbr { get; set; }
+        public string AcknowledgementRequested { get; set; }
+        public string TestIndicator { get; set; }
+        public string SubElementSeparator { get; set; }       
 }
